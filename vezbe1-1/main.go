@@ -25,5 +25,8 @@ func main() {
 		fmt.Println(igor)
 	}
 
-	calculator()
+	// calculator()
+	// fmt.Println(isPrimeNumber(4))
+	firstNPrimeNumbers(10)
+
 }

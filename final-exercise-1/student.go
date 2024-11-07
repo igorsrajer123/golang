@@ -1,12 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 type Student struct {
-	Index     string
-	Firstname string
-	Lastname  string
-	Rating    float64
+	Index        string
+	Firstname    string
+	Lastname     string
+	Rating       float64
+	RandomNumber int
 }
 
 func isIndexUnique(students []Student, index string) bool {
@@ -23,4 +27,8 @@ func printStudents(students []Student) {
 	for _, student := range students {
 		fmt.Println(student)
 	}
+}
+
+func generateRandomNumber(c chan int) {
+	c <- rand.Intn(100)
 }

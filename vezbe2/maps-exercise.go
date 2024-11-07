@@ -6,14 +6,14 @@ import (
 )
 
 type Student struct {
-	firstname string
-	lastname  string
-	year      string
-	rating    float64
+	Firstname string
+	Lastname  string
+	Year      string
+	Rating    float64
 }
 
 func initializeStudentsMap() map[string]Student {
-	igor := Student{firstname: "Igor", lastname: "Srajer", year: "2024", rating: 8.85}
+	igor := Student{Firstname: "Igor", Lastname: "Srajer", Year: "2024", Rating: 8.85}
 	students := make(map[string]Student)
 	students["ra78/2024"] = igor
 
@@ -30,26 +30,26 @@ func displayStudents(students map[string]Student) {
 func addStudentToMap(studentMap map[string]Student) {
 	newStudent := Student{}
 
-	fmt.Println("Please enter new student firstname:")
-	_, err := fmt.Scanf("%s", &newStudent.firstname)
+	fmt.Println("Please enter new student F:")
+	_, err := fmt.Scanf("%s", &newStudent.Firstname)
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	fmt.Println("Please enter new student lastname:")
-	_, err = fmt.Scanf("%s", &newStudent.lastname)
+	_, err = fmt.Scanf("%s", &newStudent.Lastname)
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	fmt.Println("Please enter new student year:")
-	_, err = fmt.Scanf("%s", &newStudent.year)
+	_, err = fmt.Scanf("%s", &newStudent.Year)
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	fmt.Println("Please enter new student rating:")
-	_, err = fmt.Scanf("%g", &newStudent.rating)
+	_, err = fmt.Scanf("%g", &newStudent.Rating)
 	if err != nil {
 		log.Fatal(err)
 	}

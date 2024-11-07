@@ -1,14 +1,5 @@
-PODUDLAJ MI KOBASICU!
-PODUDLAJ MI KOBASICU!
-hehe neki text!
-hehe neki text!
-hehe neki text!
-hehe neki text!
-hehe neki text!
-hehe neki text!
-hehe neki text!
-hehe neki text!
-hehe neki text!
-hehe neki text!
-hehe neki text!
-hehe neki text!
+{}
+{}
+{"Firstname":"pera","Lastname":"peric","Year":"2029","Rating":6.7}
+{"Firstname":"pera","Lastname":"peric","Year":"2029","Rating":6.7}
+{"Firstname":"pera","Lastname":"peric","Year":"2029","Rating":6.7}

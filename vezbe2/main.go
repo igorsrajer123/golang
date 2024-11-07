@@ -27,7 +27,7 @@ func main() {
 
 	// File O/I
 	// file := openAndReadFile("nekinovifajl.txt")
-	// writeToFile(file, "hehe neki text!\n")
+	// writeToFile(file)
 	// defer file.Close()
 
 	// Sorting algorithm
@@ -38,21 +38,21 @@ func main() {
 	// Maps exercise
 	// students := []Student{{firstname: "Aleksandar", lastname: "Srajer", year: "2024", rating: 7.55}}
 	// students = append(students, newStudent)
-	students := initializeStudentsMap()
-	for true {
+	// students := initializeStudentsMap()
+	// for true {
 
-		value := displayMenu()
-		switch value {
-		case 1:
-			displayStudents(students)
-		case 2:
-			addStudentToMap(students)
-		case 3:
-			removeStudentFromMap(students)
-		case 4:
-			return
-		default:
-			displayMenu()
-		}
-	}
+	// 	value := displayMenu()
+	// 	switch value {
+	// 	case 1:
+	// 		displayStudents(students)
+	// 	case 2:
+	// 		addStudentToMap(students)
+	// 	case 3:
+	// 		removeStudentFromMap(students)
+	// 	case 4:
+	// 		return
+	// 	default:
+	// 		displayMenu()
+	// 	}
+	// }
 }

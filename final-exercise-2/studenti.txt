@@ -1,0 +1,2 @@
+{"Index":"ra78/2016","Firstname":"igor","Lastname":"srajer","Rating":8}
+{"Index":"ra89/2015","Firstname":"dusan","Lastname":"isakov","Rating":6}
